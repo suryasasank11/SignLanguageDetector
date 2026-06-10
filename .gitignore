@@ -1,0 +1,41 @@
+# Virtual environment
+venv/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model backups and old incompatible files
+model/lstm_weights_backup.keras
+model/lstm_weights.keras
+
+# Large training data arrays (regenerated automatically on first run)
+model/X.txt.npy
+model/Y.txt.npy
+model/X_train.npy
+model/X_test.npy
+model/y_train.npy
+model/y_test.npy
+model/lstm_hist.pckl
+
+# Training images (large, not needed for running the app)
+Data/images/
+
+# Installers (large binaries, not source code)
+*.exe
+
+# Rendered notebook HTML export
+SignDetection.html
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# macOS system files
+.DS_Store
